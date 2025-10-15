@@ -1,4 +1,14 @@
-{
+<div>
+  <button onclick="vote('yes')">😊 Yes</button>
+  <button onclick="vote('no')">🙁 No</button>
+  <button onclick="vote('undecided')">👀 Undecided</button>
+</div>
+<script>
+function vote(choice) {
+  alert('You voted: ' + choice);
+  // Replace with actual vote handling logic
+}
+</script>{
     "$schema": "https://raw.githubusercontent.com/prototypicalpro/repolinter/master/rulesets/schema.json",
     "version": 2,
     "axioms": {},
